@@ -4,13 +4,27 @@
 
 // template string backtick ${}
 
-let a = 4;
-let b = 5;
+// let a = 4;
+// let b = 5;
 
-console.log(`a + b = ${a + b}`); // 9
-console.log(`Hinh chữ nhật 
-            Chiều dài  = ${a}
-            Chiều rộng = ${b}
-            Chu vi     = ${2*(a+b)}
-            Diện tích  = ${a*b}
-            `)
+// console.log(`a + b = ${a + b}`); // 9
+// console.log(`Hinh chữ nhật 
+//             Chiều dài  = ${a}
+//             Chiều rộng = ${b}
+//             Chu vi     = ${2*(a+b)}
+//             Diện tích  = ${a*b}
+//             `)
+
+// object
+
+let obj ={
+    name:`Berry`,
+    old: 20,
+    address:`HCM`
+}
+console.log(
+    `Name: ${obj.name}
+     Old: ${obj.old}
+     Address: ${obj.address}`
+            )
+console.log(obj);
