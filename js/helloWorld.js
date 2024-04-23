@@ -36,3 +36,11 @@ let arr=[1,2,3,4,5,6,7,8,9,10];
 
 let famlily =[{name:`Berry`, age:20},{name:`Jerry`, age:25},{name:`Tom`, age:30}];
 console.log(famlily);
+
+//so sánh == vs ===
+//chỉ nên sử dụng ===
+
+// for loops
+for (let i = 0; i < arr.length; i++) {
+    console.log(`arr[${i}]= `,arr[i]);
+}
