@@ -44,3 +44,18 @@ console.log(famlily);
 for (let i = 0; i < arr.length; i++) {
     console.log(`arr[${i}]= `,arr[i]);
 }
+
+//while loops
+let i = 0;
+while (i < arr.length) {
+    console.log(`arr[${i}]= `,arr[i]);
+    i++;
+}
+
+//function
+let a = 5;
+let b = 6;
+function sum(a,b){
+    return a + b;
+}
+console.log(`result: ${a} + ${b} = ${sum(a,b)}`);
